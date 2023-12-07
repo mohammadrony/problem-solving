@@ -1,6 +1,3 @@
-switcher = {
-    0: "this is zero",
-    1: "this is one"
-}
+switcher = {0: "zero", 1: "one"}
 
 print(switcher.get(1, "nothing"))

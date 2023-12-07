@@ -1,4 +1,4 @@
-list1= [2,3,5,2]
+list1 = [2, 3, 5, 2]
 
 list2 = sorted(list1)
 print(list1)

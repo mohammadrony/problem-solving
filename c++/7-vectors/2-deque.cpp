@@ -29,7 +29,8 @@ int main()
 	cout << "\ngquiz.front() : " << gquiz.front();
 	cout << "\ngquiz.back() : " << gquiz.back();
 
-	cout << endl << gquiz[0];
+	cout << endl
+			 << gquiz[0];
 
 	cout << "\ngquiz.pop_front() : ";
 	gquiz.pop_front();

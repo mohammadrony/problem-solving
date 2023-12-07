@@ -1,16 +1,16 @@
-user = ['rony', 'imran', 'shanto']
+user = ["rony", "imran", "shanto"]
 print(user[0:2])
 
-user.insert(1, 'rony')
+user.insert(1, "rony")
 print(user)
 
-user.remove('rony')
+user.remove("rony")
 print(user)
 
-newusers = [['user1'], ['user2']]
+newusers = [["user1"], ["user2"]]
 user.extend(newusers)
 
-newset = {'first', 'second'}
+newset = {"first", "second"}
 
 print(newset)
 

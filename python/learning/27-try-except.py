@@ -1,18 +1,18 @@
 try:
-    print('hello')
+    print("hello")
 except:
-    print('error')
+    print("error")
 else:
-    print('hi')
+    print("hi")
 
 try:
     v = None
     arr = [1, 2]
     print(arr[3])
     print("Hello" + v)
-    print(2/0)
+    print(2 / 0)
 except IndexError:
-    print('index out of bound')
+    print("index out of bound")
 except TypeError:
     print("Something went wrong")
 except NameError:
@@ -22,7 +22,7 @@ except ZeroDivisionError:
 else:
     print("Nothing went wrong")
 finally:
-    print('Done')
+    print("Done")
 
 x = -1
 
@@ -33,4 +33,4 @@ try:
     x = -3
     print(x)
 except:
-    print('error')
+    print("error")

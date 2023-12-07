@@ -1,8 +1,4 @@
-car = {
-    "brand": "Ford",
-    "model": "Mustang",
-    "year": 1964
-}
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
 
 key = car.keys()
 val = car.values()

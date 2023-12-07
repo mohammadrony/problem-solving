@@ -21,7 +21,7 @@ print(set1.symmetric_difference(set2))
 
 
 if set1.isdisjoint(set2):
-  print("Two sets have no items in common")
+    print("Two sets have no items in common")
 else:
-  print("Two sets have items in common")
-  print(set1.intersection(set2))
+    print("Two sets have items in common")
+    print(set1.intersection(set2))

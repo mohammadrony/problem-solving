@@ -1,10 +1,12 @@
 f = 101
 print(f)
 
+
 def newFunction():
-  global f
-  print(f)
-  f = "changing global variable"
+    global f
+    print(f)
+    f = "changing global variable"
+
 
 newFunction()
 
