@@ -1,4 +1,4 @@
-# original_color = "232F3E"
+# original_color = "ABC123"
 original_color = input("Original color: ")
 
 # Convert hex to RGB
