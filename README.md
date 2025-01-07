@@ -1,4 +1,4 @@
-# Programming Languages
+# Problem Solving
 
 - [C](./c/)
 - [C++](./c++/)
